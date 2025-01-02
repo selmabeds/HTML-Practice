@@ -1,0 +1,37 @@
+<!-- This Chapter's instructions were the following: 
+Create a band.html page for your favorite artist using all the elements we learned and at least two types of text formatting.
+It should include the following:
+- The name of the artist.
+- A picture of the artist or album cover.
+- A short blurb about the artist.
+- A link to the artist's website.
+- The members in an unordered list.
+- Top 5 favorite songs in an ordered list. --->
+
+<body>
+<h1> Resonance </h1>
+<img src = "https://i.pinimg.com/736x/b0/cf/87/b0cf870d185d9faf7a6b94f7a5364d32.jpg">
+</br>
+<p> Resonance is actually a big group of kitties and they meow really hard into the mic!! Beware of their little claws during concerts; they might leave you a little mark.. sorry </p>
+<a href = "https://www.instagram.com/resonance.mtl"/> Check out their next performances here! </a>
+</br>
+<h2> Who are these kitties in the picture?!?'</h2>
+<ul>
+  <li> Oscar le Gum </li>
+  <li> Caca </li>
+  <li> Muddy </li>
+  <li> Marilyn </li>
+  <li> Charlie </li>
+  <li> We do not know who those other kittens are....</li>
+</ul>
+<h2> You would <b>LOVE</b> their psychedelic top hits! </h2>
+<ol>
+  <li> Catnip </li>
+  <li> Laserbeams </li>
+  <li> Protecting thyself </li>
+  <li> Long Lost Mother... </li>
+  <li> Dry Food Rehab </li>
+</ol>
+
+</body>
+
