@@ -1,0 +1,42 @@
+<!-- Practice 1: Diff selector Types-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .blue {color: blue;}
+        h1 {color: green;} 
+        #highlight {color: red;}
+        * {color: yellow; font-size: 5mm}
+
+    </style>
+</head>
+<body>
+
+    <h1 class="blue"> This is blue </h1>
+    <h1 id = "highlight"> This is red </h1>
+    <h1> this is green </h1>
+    <h2> this is yellow </h2>
+
+</body>
+</html>
+
+
+<!-- Practice #2: Same selector Type-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        /* Practice 1: Diff selector Types*/
+        .green {color: green} 
+        h1 {color: red;} 
+        h1 {color: blue;}
+
+    </style>
+</head>
+<body>
+    <h1>This is blue because blue was declared last </h1> 
+    <h1 class="green">This is green</h1>
+
+</body>
+</html>
