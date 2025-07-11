@@ -1,0 +1,52 @@
+<!--- General Format:
+Selector{
+    property 1: value1;
+    property 2: value2;
+} --->
+
+<!--- 4 Selector types
+    HTML elements, inline, avoid
+    Classes (most used)
+    IDs
+    * (universal)
+--->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<!--- Classes & Generic & ID Selectors -->
+<style>
+
+  /* Style Order:
+      ID > Class/PseudoClass > Simple Selector > * > Default Style
+  */
+p.center { 
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: rgb(56, 170, 64);
+}
+
+#para1 {
+  text-align: center;
+  color: rgb(4, 0, 255);
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected by p.center</h1>
+
+<p class="center">This paragraph will be red and center-aligned.</p> 
+
+<p id="para1">This text is affectd by the ID selector</p>
+
+<p>This paragraph is not affected by any style.</p>
+
+</body>
+</html>
