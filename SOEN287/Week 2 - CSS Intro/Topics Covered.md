@@ -1,3 +1,7 @@
+**#All references:**
+[CSS References](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+
 **#1. Selectors (see files)**
 
 **#2. Fonts**
@@ -69,5 +73,3 @@
                 Inner Edge
                     Content
 
-**#All references:**
-[CSS References](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
