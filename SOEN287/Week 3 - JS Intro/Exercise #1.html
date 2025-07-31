@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+    <!-- instructions:
+     Write JS code for text box that accepts only letter characters (A-Z,a-z).
+     If user enters else, display alert msg.-->
+
+        <input type="text" id="input" placeholder="Enter a valid input.">
+
+        <script>
+        var inputBox = document.getElementById("input");
+
+        inputBox.addEventListener("input", function() {
+            var input = inputBox.value;
+
+            for (let i = 0; i < input.length; i++) {
+            let letterCheck = input.charCodeAt(i);
+            if (
+                !(letterCheck >= 65 && letterCheck <= 90) &&
+                !(letterCheck >= 97 && letterCheck <= 122)
+            ) {
+                alert("Please enter letters only!");
+                inputBox.value = input.slice(0, i);  // Remove invalid char
+                break;  // Stop checking further
+            }
+            }
+        });
+    </script>
+    </body>
+</html>

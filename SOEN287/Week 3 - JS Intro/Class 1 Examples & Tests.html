@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Prelude-->
+     <p> In JS, variables are dynamically typed:</p>
+     <script>
+        let x = 5;        // number
+        let name = "Selma"; // string
+        let isHappy = true; // boolean
+     </script>
+    <!-- Exercise #1-->
+    <div id="Ex1">
+        <h3> Exercise #1 - String properties</h3>
+        <!--Input box -->
+        <input type="text" placeholder="Enter a word" id="word"><br>
+        <input type="button" value="Submit"><br>
+        <!-- Length with JS-->
+        <script>
+            var word = document.getElementById("word"); //Document references the current webpage in the browser
+            document.write(word.value.length);
+        </script>
+    </div>
+    
+    <!-- Exercise #2-->
+    <div id="Ex2">
+        <br>
+        <h3> Exercise #2 - Operations</h3>
+        <script>
+            var a ="123"; 
+            var b = "123";
+            document.write(a==b);
+
+        </script>
+    </div>
+
+    <!-- Exercise #3-->
+     <div id="Ex3">
+        <br>
+        <h3> Exercise #3 - Boolean </h3>
+        <script>
+            //Strings are always considered as true in booleans
+            document.write(Boolean("false"));
+        </script>
+     </div>
+
+     <!-- Exercise #4-->
+     <div id="Ex4">
+        <br>
+        <h3> Exercise 4 - Comparing object vs var </h3>
+        <script>
+            var a = new String("123"); //These are no longer strings, but rather objects.
+            var b = new String("123");
+
+            if(a==b) { document.write('yes')} //Answer = no, car on ne peut pas comparer 2 objets. 
+            else{ document.write('no');}
+        </script>
+     </div>
+
+     <!-- Exercise #5-->
+     <div id="5">
+        <br>
+        <script>
+        var c = String("123"); //Object of a string
+        var d = new String("123"); //Object of a string
+        if(a==b) { document.write('yes')} //Answer = yes, car on compare le mm OBJET String
+        else{ document.write('no');}
+        </script>
+     </div>
+</body>
+</html>
